@@ -1,0 +1,62 @@
+# Citizens NPC Storage
+
+last-created-npc-id: 0
+npc:
+  '0':
+    metadata:
+      cached-skin-uuid-name: bedwars
+      cached-skin-uuid: 9b0d4248-b96d-4a84-9feb-847087d16b1b
+    name: Bedwars
+    uuid: cbef3d14-860b-483d-aedf-0b9729e5eb1f
+    traits:
+      scoreboardtrait: {}
+      spawned: true
+      location:
+        bodyYaw: 178.69269
+        world: world
+        x: '-18.5'
+        y: '86.0'
+        z: '-224.5'
+        yaw: '178.6927'
+        pitch: '8.0179'
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: false
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      type: PLAYER
+      skintrait:
+        fetchDefaultSkin: true
+        signature: I4q5REEJmPrbyNl1TBhg2KJwxSnd7nZ4UBDKkmSGrVHBqIcaVBMhvLQJqSiGLTsII8GZYD5Ib0ZztXOGCABGSKXYS4v3Djq5p6YDUKrs5RK6i5OM/AztSo0CkVW8HZElqclIiWGjYT38XMUBszuPPw9F9HThGEo6gc3JU4ogLkyuS9Q2WpiV4dBwDyqzYuo+Dwk7MUQU2vmQ9gFXEecNuFc40LVsI4hlVZVta57QLUOdn7G/VAMZY0xfbA1VY/fcevBCg4qByrEO7KKdF8S3ZeWwMQf6+aiwiXsErb1wWbA1kLneswF+CQNe+zyXJxAPwowIqIlik6PAj8JuJYbL9PkleL/y6AOCx2YzEASGby6/WMr41yqYxqBX+JcLRK5RaXIH1bEJO2WsNKeHMZHDOymok5ZTntKmLq1GI8gVoSdsNSJMGc/9NnoZiLLlau8FXB0HhGVk9kfIu0Ae3RFYDa4efO9wwTiqGWb4fFWETKA7FYB9atiFMc2xC3SsOXBkLb8jL2WcDQH/KwWLZWUVccovAHJ69zgGHX00N7zixGXdfgpXjNZ/kkzB51pazZ+aQ1otTs1fuMB1DF9DWGZfdptC3Gtu85DwG5QyTFaBxOvHb9rrZ3A9m377SkkzzWxneyCwrMk3B8aQttzTrIpoxus+L8I5GzZAqLWxwBz5W/U=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTcxNjMxMjI3NDAzNiwKICAicHJvZmlsZUlkIiA6ICI5YjBkNDI0OGI5NmQ0YTg0OWZlYjg0NzA4N2QxNmIxYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJCZWRXYXJzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzE4MDYzYTFhNDk3MGMxYjI2N2RlN2QxYTZlNmRkMGY5NjVkNWEyZjRlMGIxMTQxNjhlZGI4ZThlMjg4N2MxMmEiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yMzQwYzBlMDNkZDI0YTExYjE1YThiMzNjMmE3ZTllMzJhYmIyMDUxYjI0ODFkMGJhN2RlZmQ2MzVjYTdhOTMzIgogICAgfQogIH0KfQ==
+        updateSkins: false
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        commands:
+          '1':
+            command: bw gui
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      inventory: {}
+      owner:
+        owner: Zebraburger123
+        uuid: 68ce06ba-1eef-3160-8eb1-bc72480cc20e
+    traitnames: skintrait,location,scoreboardtrait,owner,commandtrait,mounttrait,spawned,equipment,lookclose,type,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
