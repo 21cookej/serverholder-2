@@ -1,0 +1,239 @@
+# Visit plugin page or spigot/bukkit website to check description for all options.
+# 
+# Debugging
+debug:
+  default: false
+  island: false
+  deleter: false
+version-check: true
+language: def
+date-format: yyyy-MM-dd HH:mm
+world-isle: islandworld
+world-spawn: world
+world-block-id: 0
+island-height: 20
+island-y-min: 0
+island-y-max: 256
+island-y-move: 0
+island-size: 100
+region-spacing: 1
+region-spacings:
+  permvip: 1
+region-step: 0
+delete-step: 10
+delete-delay: 10
+check-only-island: true
+skip-create-check: true
+max-count: 100
+track-uuid: true
+use-bimap: true
+snail-mode: false
+use-world-edit: true
+use-gui: false
+schematics:
+- normal
+schematic-move: 25
+on-create:
+- sethome
+on-delete:
+- sethome
+teleport-delay: 0
+movement-break-tp: false
+visit-tp-delay: false
+skip-tp-home-check: false
+skip-tp-visit-check: true
+time-limit: 0
+fixhome-limit: 0
+calc-limit: 10
+create-limit: 0
+create-limit-block-delete: false
+auto-save: 60
+auto-deleter: 5
+auto-deleter-hours: 6
+auto-deleter-start: '22:00'
+backup-on-start: true
+backup-max-days: 0
+inv-clear:
+  create: true
+  delete: true
+  leave: true
+  remove: false
+  quitfall: false
+ec-clear:
+  create: true
+  delete: true
+  leave: true
+  remove: false
+eco-reset: false
+allow-visit: true
+strict-party: true
+helper-allowed:
+- home
+party-limit: 4
+party-limits:
+  svip: 9
+  vip: 6
+home-limit: 3
+home-limits:
+  svip: 9
+  vip: 6
+obsidian-break: false
+obsidian-limit: true
+request-time: 10
+rank-size: 10
+reload-time: 30
+auto-purge: 0
+purge-check-members: true
+purge-points: 0
+purge-delay: 60
+falling-block-tp: true
+remove-mob-on-tp: false
+respawn-on-island: skip
+spawn-from-nether: false
+spawn-on-quit: false
+fast-kill: false
+tele-on-fall: false
+tele-on-fall-use-perm: false
+holo-spawns:
+  enabled: false
+  text: Spawn here!
+  item: NETHER_STAR
+party-prefix: none
+chat-prefix: none
+chat-prefix-without-island: true
+check-lock-open-flags: true
+owner-change-allowed: false
+island-lock: false
+open-offline: false
+item-protection: false
+spawn-switcher: false
+spawn-type-block-mobs:
+  NATURAL: true
+spawn-type-block-animals:
+  NATURAL: true
+island-flying: false
+spawn-flying: false
+liquid-listeners: false
+negative-build: true
+default-biome: forest
+per-biome-perms: false
+per-biome-cost: false
+calc-on-enter: false
+remove-chest-shops: false
+remove-lockette: false
+addons:
+  worldborder: true
+  mvdwplaceholder: true
+flags:
+  move-info: true
+  pvp: false
+  chest-acces: true
+  use-egg: false
+  use-vehicle: false
+  use-boat: false
+  item-pickup: false
+  item-drop: true
+  death-item-drop: true
+  use-portal: false
+  use-villager: false
+  kill-animals: false
+  kill-monster: false
+  kill-golems: false
+  potion-throw: false
+  egg-throw: false
+  shear: false
+  fire-damage: true
+  fall-damage: true
+allowed-list:
+- '26'
+blocked-list:
+- '383:56'
+ignored-list:
+- '7'
+ignored-inventory-list:
+- WRITTEN_BOOK:0
+level-divider: 25600
+material-points:
+  '4': 2
+material-default: 1
+database:
+  host: disabled
+  port: 3306
+  user: islandworld
+  pass: password
+  base: islandworld
+  table: island_stats
+  useSSL: true
+pathway:
+  width: 0
+  height: 150
+  block: '44:2'
+economy-enabled: false
+command-cost:
+  commandname: 200
+dynmap:
+  enabled: false
+  debug: false
+  ispertick: 50
+  timetick: 1
+  updatetime: 3600
+  regionstyle:
+    strokeColor: '#00FF00'
+    strokeOpacity: 0.7
+    strokeWeight: 3
+    fillColor: '#00FF00'
+    fillOpacity: 0.3
+use-config-items: true
+normal-items:
+- LAVA_BUCKET 1
+- WATER_BUCKET 1
+- WATER_BUCKET 1
+- SEEDS 2
+- PUMPKIN_SEEDS 2
+- MELON_SEEDS 2
+- INK_SACK 2 3
+- SAPLING 1
+- SAPLING 1 1
+- SAPLING 1 2
+- RED_MUSHROOM 2
+- BROWN_MUSHROOM 2
+- APPLE 10
+- CARROT 10
+- MELON 10
+- STRING 10
+- BONE 10
+special-items:
+- LAVA_BUCKET 1
+- WATER_BUCKET 1
+- WATER_BUCKET 1
+- SEEDS 4
+- PUMPKIN_SEEDS 4
+- MELON_SEEDS 4
+- INK_SACK 4 3
+- SAPLING 3
+- SAPLING 3 1
+- SAPLING 3 2
+- RED_MUSHROOM 10
+- BROWN_MUSHROOM 10
+- APPLE 10
+- CARROT 10
+- MELON 10
+- STRING 20
+- BONE 20
+use-awe: true
+awe-group:
+  maxJobs: 10
+  cleanOnLogout: true
+  defaultMode: true
+  renderer:
+    blocks: 10000
+    time: 75
+  queue:
+    limit-hard: 200000
+    limit-soft: 100000
+  messages:
+    progress-bar: false
+    progress-chat: false
+    talkative: false
+    progress-bar-min: 100
+  disableUndo: false

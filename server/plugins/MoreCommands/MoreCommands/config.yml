@@ -1,0 +1,16 @@
+# MoreCommands v1.20.0
+#  
+# Note if you wish to disable a command make sure that you also disable its aliases.
+# Make sure you reload MoreCommands to save updated disabled commands.
+# DisabledCommandsConsoleOutputCommands refers to a list of all the commands
+# and there aliases with a check if they are disabled.
+#  
+Display vanished message: false
+Vanish message: '&e[player] has left the game'
+UnVanish message: '&e[player] has joined the game'
+Reload message: '&6MoreCommands &econfig reloaded!!'
+Broadcast: '&7[&4Broadcast&7]&f'
+DisabledCommandsConsoleOutputCommands: false
+Disabled Commands:
+- blockedcommand
+- example2

@@ -1,0 +1,9 @@
+# 
+# Config for v1.1
+# 
+# Message for the /spawn with no args
+spawn: '&aYou got teleported to spawn!'
+spawnworld: '&aYou got teleported to: %world%!'
+cooldown: '&cYou must wait %time% seconds before issuing this again!'
+cooldowntime: '5'
+no-cooldown: 'false'
