@@ -55,7 +55,7 @@ npc:
       owner:
         owner: Zebraburger123
         uuid: 68ce06ba-1eef-3160-8eb1-bc72480cc20e
-    traitnames: skintrait,location,scoreboardtrait,owner,commandtrait,mounttrait,spawned,equipment,lookclose,type,inventory
+    traitnames: type,equipment,inventory,scoreboardtrait,commandtrait,lookclose,owner,spawned,location,skintrait,mounttrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
